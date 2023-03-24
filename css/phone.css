@@ -1,0 +1,230 @@
+@media only screen and (max-width: 970px) and (min-width:700px) {
+  #logo{
+    padding: 0.4em 0em;
+  }
+  nav ul{
+      font-size: 1.2em;
+      padding-left:0em ;
+     
+  }
+  nav ul li{
+    
+      padding: 0em 0.5em;
+  }
+  
+  #first_container {
+    padding: 1.5em;
+  }
+  #first_container h2 {
+    padding-bottom: 0.5em;
+  }
+  table {
+    font-size: 1em;
+  }
+  td,
+  th {
+    text-align: left;
+    padding: 0.5em;
+  }
+  #first_container button {
+    height: 2em;
+    width: 5.8em;
+    font-size: 1em;
+    border-radius: 5px;
+  }
+  .second_container {
+    font-size: 0.8em;
+  }
+  .third_container {
+    font-size: 0.8em;
+    padding-left: 2.5em;
+  }
+  .reasons h2 {
+    font-size: 2.3em;
+    padding-bottom: 0.3em;
+  }
+  .f_container {
+    font-size: 1em;
+  }
+  .f1_container {
+    font-size: large;
+  }
+  .f2_container ul {
+    padding: 1.3em;
+  }
+  .f2_container ul li {
+    padding: 0.3em;
+  }
+  .footer {
+    height: 3.2em;
+  }
+} 
+
+@media only screen and (max-width: 700px) and (min-width:518px) {
+  #logo{
+    padding: 0.4em 0em;
+  }
+  nav ul{
+      font-size: 0.8em;
+  }
+  nav ul li{ 
+      padding: 0em 0.4em;
+  }
+  #first_container{
+      padding: 2.5em;
+  }
+  #first_container h2{
+      padding-bottom: 0.5em;
+  }
+  table {
+    font-size: 0.8em;
+  }
+  td,
+  th {
+    padding: 0.6em;
+  }
+  #first_container button{
+    height: 2em;
+    width: 5.8em;
+    font-size: 1em;
+  }
+  .second_container{
+    font-size: 0.7em;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+.texts{
+  font-size: medium; 
+  flex-basis: 30%;
+    padding: .5em 0.5em 1em 0.5em;
+  }
+  .third_container {
+    font-size: 0.7em;
+    padding-left: 2.5em;
+  }
+  .reasons h2 {
+    font-size: 2.2em;
+    padding-bottom: 0.3em;
+  }
+  .reasons h3{
+    padding: 0.7em 0em 0.5em 0em ;
+  }
+.f_container{ 
+    font-size: 0.9em;
+    display: flex;   
+}
+.f1_container{
+  padding: 2em 0em 0em 1em;
+  font-size: medium;
+}
+.f2_container{
+padding-top: 1.7em ;
+}
+.f2_container ul{
+  padding: 1em;
+}
+.f2_container ul li{
+  padding: 0.5em;
+}
+ .footer {
+    height: 3em;
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 518px) and (min-width:300px) {
+  #navbar{
+    flex-wrap: wrap;
+  }
+  #logo{
+    size: 0.4em;
+    padding: 0.4em 0em;
+  }
+  nav ul{
+      font-size: 0.9em;
+      flex-direction: column;
+  }
+  nav ul li{ 
+      padding: 0.5em 0.4em;
+  }
+  nav ul li i{ 
+   text-align: left;
+}
+  #first_container{
+      padding: 0.5em;
+      font-size: 0.5em;
+  }
+  #first_container h2{
+      padding-bottom: 0.3em;
+  }
+  table {
+    font-size: 1em;
+  }
+  td,
+  th {
+    padding: 0.2em;
+  }
+  #first_container button{
+    height: 2.6em;
+    width: 5.8em;
+    font-size: 1.3em;
+    border-radius:6px;
+  }
+  .second_container{
+    font-size: 0.4em;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+.texts{
+  font-size: 1.9em; 
+  flex-basis: 30%;
+    padding: .5em 0.5em 1em 0.5em;
+  }
+ 
+  .third_container {
+    font-size: 0.8em;
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+  .reasons h2 {
+    font-size: 1em;
+    padding-bottom: 0.3em;
+  }
+.f_container{ 
+    font-size: 0.7em;
+    display: flex; 
+    flex-direction: column;  
+}
+.f1_container{
+  padding: 2em 0em 0.7em 0.5em;
+  font-size: 1em;
+}
+.f2_container{
+padding-top: 1em ;
+}
+.f2_container ul{
+  padding: 0.4em;
+}
+.f2_container ul li{
+  padding: 0.em;
+}
+ .footer {
+    height: 2em;
+    padding-bottom: 0.9em;
+    font-size: 0.5em;
+  }
+
+#navbar ul{
+  right: 11%;
+  position: absolute;
+  display: none;
+  background: black;
+  padding: 2em;
+}
+#menu{
+  display: flex !important;
+}
+
+
+}

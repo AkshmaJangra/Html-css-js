@@ -1,0 +1,215 @@
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Dancing+Script&family=Lato:wght@300&family=Roboto&family=Ubuntu&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu{
+  display: none;
+}
+.menuItems{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#navbar{
+  width: 100%;
+    color: whitesmoke;
+    background-color: rgb(8, 20, 51);
+    
+}
+#logo {
+  padding: 1em 1em;
+}
+nav{
+    display: flex;
+   
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.3em;
+    font-family: 'Varela Round', sans-serif;
+}
+nav ul li{
+    list-style: none; 
+    padding: 0em 1.5em;
+}
+
+#first_container{
+    background-color: rgb(5, 17, 48);
+    color: whitesmoke;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 4.5em;
+}
+#first_container h2{
+    padding-bottom: 1em;
+}
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+    font-size: 1.2em;
+  } 
+  td, th {
+    text-align: left;
+    padding: 1em;
+  } 
+  tr:nth-child(even) {
+    font-weight: bold;
+  }
+  #first_container button{
+    text-align: center;
+    height:2em;
+    width: 5.9em;
+    margin-left: 50%;
+    background-color:rgb(24, 149, 198);
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.7em;
+    border: 0px;
+    border-radius: 8px;
+  }
+  .second_container{
+    background-color:#070731;
+    color: whitesmoke;
+    font-family: arial, sans-serif;
+    font-size: 1.2em;
+  }
+.texts{
+  flex-basis: 30%;
+    padding: .5em 0.5em 1.5em 0.5em;
+  }
+  .texts h2{
+
+    padding-bottom: 0.5em ;
+  }
+  .texts h3{
+    padding-bottom: 0.3em;
+  }
+  .third_container{
+    background-color: rgb(5, 17, 48);
+    color: whitesmoke;
+    font-family: arial, sans-serif;
+    font-size: 1em;
+    padding-left: 2.5em;
+  }
+  .reasons{
+    flex-basis: 50%;  
+  }
+  .reasons h2{
+   
+    font-size: 2.2em;
+    padding-bottom: 0.9em;
+  }
+  .reasons h3{
+    padding: 0.7em 0em 0.5em 0em ;
+  }
+.f_container{ 
+    background-color:#070731;
+    color: whitesmoke;
+    font-family: arial, sans-serif;  
+    font-size: 1.2em;
+    display: flex;   
+}
+.f1_container{
+  padding: 2em 0em 0em 1em;
+  font-size: larger;
+}
+.f2_container{
+list-style: none;
+display: flex;
+/* flex-wrap: nowrap; */
+padding-top: 2em ;
+}
+.f2_container ul{
+  list-style: none;
+  padding: 1.5em;
+}
+.f2_container ul li{
+  padding: 0.3em;
+}
+
+  .footer{
+    height: 3.5em;
+    background-color: rgb(5, 17, 48);
+    color: whitesmoke;
+    font-family: arial, sans-serif;
+    text-align: center;
+  }
+  .footer p{
+    padding-top: 1em;
+  }
+
+
+  .d-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .currencyName{
+    padding: 0em 0.4em ;
+  }
+  .currencySymbol{
+    color: #605b5b;
+  }
+  .chartImg{
+    width: 3.5em;
+  }
+  .positivePer{
+    color: green;
+  }
+  .negativePer{
+    color: red;
+  }
+  .downImg{
+    padding: 0em 0.1em;
+    width: 0.6em;
+  }
+  .world{
+    
+    flex-basis: 70%;
+    z-index: 10;
+  }
+  .world img{
+    object-fit: contain;
+    width: 100%;
+    opacity: 0.4;
+  }
+  .box{
+background-color: black;
+width: 8em;
+height: 3em;
+position: relative;
+    top: -17em;
+    left: 22em;
+  }
+  .box img{
+    width: 2em;
+  }
+
+  .portfolio{
+    border: 2px solid #0c0c68;
+    margin: 6em;
+    background-image: linear-gradient(#060628,#060646);
+    height: 25em;
+    border-radius: 10px;
+  }
+  .portfolioContainer{
+   
+   padding: 3em;
+    flex-basis: 50%;
+  }
+  .portfolioContainer div{
+    padding: 1em 0.5em;
+  }
+  .imgForPortfolio{
+    display: flex;
+    background-color: white;
+    border-radius: 31px;
+    height: 0.4em;
+    width: 1.3em;
+    justify-content: center;
+    align-items: center;
+  }

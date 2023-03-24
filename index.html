@@ -2,63 +2,302 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foodie.com</title>
-    <link rel="stylesheet" href="Style.css">
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/2272c749ca.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/phone.css">
 </head>
 
 <body>
-    <nav id="header">
-        <div id="logo">
-            <img src="Images/foodie.webp" alt="">
-        </div>
-        <div class="header-nav-lists">
-            <ul>
-                <li class="items"><a href="#home">HOME</a></li>
-                <li class="items"><a href="#dinners">DINNERS</a></li>
-                <li class="items"><a href="#meals">MEALS</a></li>
-                <li class="items"><a href="#integredients">INGREDIENTS</a></li>
-                <li class="items"><a href="#occasions">OCCASIONS</a></li>
-                <li class="items"><a href="#recipes">RECIPES</a></li>
-                <li class="items"><a href="#coctails">COCKTAILS</a></li>
-            </ul>
-        </div>
-    </nav>
-    <section id="home">
-        <h1 class="h-primary">Let's Cook</h1>
-        <p class="h-p-notes">Try Recipes from World's<br> best Chefs</p>
-        <button class="btn"><a href="#all-Recipes">Try Recipes </a></button>
-    </section>
-    <div id="all-Recipes">
-        <div class="layout-recipe-items">
-            <div class="heading-r">
-                <h2 class="title">Top Recipes</h2>
-            </div>
-            <div class="page_body">
-                <a class="item" href="Recipes/simpleMacaroniAndCheese.html"><img src="Images/img2.webp">
-                    <h3>Simple Macroni and Cheese</h3>
-                </a>
-                <a class="item" href="Recipes/HomemadePastaRoni.html"><img src="Images/img9.webp">
-                    <h3>Home Made Paste Roni</h3>
-                </a>
-                <a class="item" href="Recipes/GarlicNoodles.html"><img src="Images/img10.webp">
-                    <h3>Garlic Noodles</h3>
-                </a>
-                <a class="item" href="Recipes/BakedZiti.html"><img src="Images/img11.webp">
-                    <h3>Baked Ziti</h3>
-                </a>
-            </div>
-        </div>
+  <nav id="navbar" style="justify-content: space-between;">
+    <div id="logo">
+      <img src="Images/Color logo - no background.png" alt="" width="170px">
     </div>
-    <footer>
-        <div class="center">
-            Copyright &copy; www.foodie.com. All rights reserved!
+    <div  id="menu" class="menuItems">
+    <img  src="./Images/menu.png" alt=""></div>
+    <ul id="navbarUl">
+      <li>Cryptocurrencies</li>
+      <li>Exchanges</li>
+      <li>Community</li>
+      <li>Trades</li>
+      <li><i class="fa-solid fa-magnifying-glass"></i></li>
+    </ul>
+  </nav>
+
+  <section id="first_container">
+    <h2>Today's Cryptocurrency Prices By Market Cap</h2>
+    <h2>The global Cryptocurrency market cap today is <span class="positivePer"> $811.7B</span>,<img class="downImg"
+        src="./Images/down.png" alt=""><span class="negativePer"> 0.17%</span> decrease in the last 24 hours. </h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>24h Change</th>
+        <th>Chart</th>
+        <th>Marketcap</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="d-flex"><img src="./Images/bitcoin.webp" alt="bitcoin">
+            <div class="d-flex"><span class="currencyName">Bitcoin</span><span class="currencySymbol">Btc</span></div>
+          </div>
+        </td>
+        <td>$3625.24</td>
+        <td class="positivePer">+2.4%</td>
+        <td><img class="chartImg" src="./Images/sparkline.svg" alt="positive"></td>
+        <td>$320,893,271,955</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="d-flex"><img src="./Images/Ethereum.webp" alt="Ethereum">
+            <div class="d-flex"><span class="currencyName">Ethereum</span><span class="currencySymbol">ETH</span></div>
+          </div>
+        </td>
+        <td>$1215.18</td>
+        <td class="negativePer">-0.7%</td>
+        <td><img class="chartImg" src="./Images/sparklineNegative.svg" alt=""></td>
+        <td>$148,563,792,762</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="d-flex"><img src="./Images/shibalna.webp" alt="shibalna">
+            <div class="d-flex"><span class="currencyName">Shibulnu</span><span class="currencySymbol">Shibu</span>
+            </div>
+          </div>
+        </td>
+        <td>$0.001</td>
+        <td class="positivePer">+1.2%</td>
+        <td><img class="chartImg" src="./Images/sparkline.svg" alt="positive"></td>
+        <td>$4,498,804,882</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="d-flex"><img src="./Images/bitcoin.webp" alt="bitcoin">
+            <div class="d-flex"><span class="currencyName">Bitcoin</span><span class="currencySymbol">Btc</span></div>
+          </div>
+        </td>
+        <td>$3625.24</td>
+        <td class="positivePer">+2.4%</td>
+        <td><img class="chartImg" src="./Images/sparkline.svg" alt="positive"></td>
+        <td>$320,893,271,955</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="d-flex"><img src="./Images/Ethereum.webp" alt="Ethereum">
+            <div class="d-flex"><span class="currencyName">Ethereum</span><span class="currencySymbol">ETH</span></div>
+          </div>
+        </td>
+        <td>$1215.18</td>
+        <td class="negativePer">-0.7%</td>
+        <td><img class="chartImg" src="./Images/sparklineNegative.svg" alt=""></td>
+        <td>$148,563,792,762</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="d-flex"><img src="./Images/shibalna.webp" alt="shibalna">
+            <div class="d-flex"><span class="currencyName">Shibulnu</span><span class="currencySymbol">Shibu</span>
+            </div>
+          </div>
+        </td>
+        <td>$0.001</td>
+        <td class="positivePer">+1.2%</td>
+        <td><img class="chartImg" src="./Images/sparkline.svg" alt="positive"></td>
+        <td>$4,498,804,882</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="d-flex"><img src="./Images/bitcoin.webp" alt="bitcoin">
+            <div class="d-flex"><span class="currencyName">Bitcoin</span><span class="currencySymbol">Btc</span></div>
+          </div>
+        </td>
+        <td>$3625.24</td>
+        <td class="positivePer">+2.4%</td>
+        <td><img class="chartImg" src="./Images/sparkline.svg" alt="positive"></td>
+        <td>$320,893,271,955</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="d-flex"><img src="./Images/Ethereum.webp" alt="Ethereum">
+            <div class="d-flex"><span class="currencyName">Ethereum</span><span class="currencySymbol">ETH</span></div>
+          </div>
+        </td>
+        <td>$1215.18</td>
+        <td class="negativePer">-0.7%</td>
+        <td><img class="chartImg" src="./Images/sparklineNegative.svg" alt=""></td>
+        <td>$148,563,792,762</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="d-flex"><img src="./Images/shibalna.webp" alt="shibalna">
+            <div class="d-flex"><span class="currencyName">Shibulnu</span><span class="currencySymbol">Shibu</span>
+            </div>
+          </div>
+        </td>
+        <td>$0.001</td>
+        <td class="positivePer">+1.2%</td>
+        <td><img class="chartImg" src="./Images/sparkline.svg" alt="positive"></td>
+        <td>$4,498,804,882</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="d-flex"><img src="./Images/bitcoin.webp" alt="bitcoin">
+            <div class="d-flex"><span class="currencyName">Bitcoin</span><span class="currencySymbol">Btc</span></div>
+          </div>
+        </td>
+        <td>$3625.24</td>
+        <td class="positivePer">+2.4%</td>
+        <td><img class="chartImg" src="./Images/sparkline.svg" alt="positive"></td>
+        <td>$320,893,271,955</td>
+      </tr>
+    </table>
+    <button type="button" onclick=" ">View All</button>
+  </section>
+
+  <div class="second_container d-flex">
+    <div class="world">
+      <img src="./Images/worldMap.jpg" alt="">
+      <div class="box d-flex">
+        <div class="d-flex">
+          <img src="./Images/ethereum.webp" alt="">
+          <div class="d-block">
+            <p>198+</p>
+            <p>Countries</p>
+          </div>
         </div>
-    </footer>
+      </div>
+    </div>
 
+
+    <div class="texts">
+      <h2>We Are The Most Trusred Cryptocurrency Platform </h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum earum labore beatae ex nam temporibus, magnam
+        veniam debitis nihil quasi.</p>
+      <h3>Clarity</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam doloribus eligendi .</p>
+      <h3>Confidence</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam doloribus eligendi .</p>
+      <h3>Community</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam doloribus eligendi .</p>
+    </div>
+  </div>
+  <div class="third_container d-flex">
+    <div class="reasons">
+      <h2>Reason to invest in Ceryptocurrency in 2022</h2>
+      <h3>Buying Bitcoin in legal</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt debitis nihil qui rerum veniam maxime
+        cupiditate aliquam maiores necessitatibus tenetur Numquam doloribus eligendi .</p>
+      <h3>High return potential</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt debitis nihil qui rerum veniam maxime
+        cupiditate aliquam maiores necessitatibus tenetur Numquam doloribus eligendi .</p>
+      <h3>Growing alternative assest class</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt debitis nihil qui rerum veniam maxime
+        cupiditate aliquam maiores necessitatibus tenetur Numquam doloribus eligendi .</p>
+    </div>
+
+    <div class="portfolioContainer">
+
+
+      <div class="portfolio">
+        <div>
+          <p>Your portfolio is <span class="positivePer">up 2.13%</span> </p>
+        </div>
+        <div class="d-flex" style="justify-content: space-between;">
+          <div class="imgForPortfolio">
+            <img src="./Images/bitcoin.webp" alt="bitcoin">
+          </div>
+          <div class="d-block" style="flex-basis: 38%;">
+            <p>Bitcoin</p>
+            <p>BTC</p>
+          </div>
+          <span class="positivePer">1.33% </span>
+        </div>
+        <div class="d-flex" style="justify-content: space-between;">
+          <div class="imgForPortfolio">
+            <img src="./Images/ethereum.webp" alt="Ethereum">
+          </div>
+          <div class="d-block" style="flex-basis: 38%;">
+            <p>Ethereum</p>
+            <p>ETH</p>
+          </div>
+          <span class="positivePer">2.14% </span>
+        </div>
+        <div class="d-flex" style="justify-content: space-between;">
+          <div class="imgForPortfolio">
+            <img src="./Images/shibalna.webp" alt="shibalna">
+          </div>
+          <div class="d-block" style="flex-basis: 38%;">
+            <p>Lightcoin</p>
+            <p>LTC</p>
+          </div>
+          <span class="positivePer">0.81% </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="f_container">
+    <div class="f1_container">
+      <div class="logo">
+        <img src="Images/Color logo - no background.png" alt="" width="170px">
+      </div>
+      <p>CoinIntention's mission is to makr investing in cryptocurrencies easy and effient. CoinIntention tracks various
+        data of cryptocurrencies and thus offers its users an overview of all cryptocurrencies available on the market
+        and their performance, market capitalizaton, trading volume, etc.</p>
+    </div>
+    <div class="f2_container">
+      <div class="company">
+        <ul>
+          <li>
+            <h3>Company</h3>
+          </li>
+          <li>About us</li>
+          <li>Terms of use</li>
+          <li>Privacy Policy</li>
+          <li>Community Rules</li>
+          <li>Discaimer</li>
+          <li>Methodology</li>
+        </ul>
+      </div>
+      <div class="support">
+        <ul>
+          <li>
+            <h3>Support</h3>
+          </li>
+          <li>Request Form</li>
+          <li>Contct Support</li>
+          <li>FAQ's</li>
+          <li>Glossary</li>
+        </ul>
+      </div>
+      <div class="socials">
+        <ul>
+          <li>
+            <h3>Socials</h3>
+          </li>
+          <li>Facebook</li>
+          <li>Instagram</li>
+          <li>Twitter</li>
+          <li>Youtube</li>
+          <li>Telegram</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>&copy 2022-2023 CoinIntention. All rights reserved.</p>
+  </div>
 </body>
+<script>let element = document.getElementById("menu");
 
+  element.addEventListener("click", function() {
+    if(document.getElementById("navbarUl").style.display=="none"){
+      document.getElementById("menu").style.display="none";
+      document.getElementById("navbarUl").style.display="flex";
+    }else{
+      document.getElementById("menu").style.display="flex";
+      document.getElementById("navbarUl").style.display="none";
+    }
+  });</script>
 </html>
